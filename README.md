@@ -31,3 +31,18 @@ Offensive performance is evaluated using runs per game, batting average (AVG), o
 - Matplotlib
 - pybaseball
 - Baseball-Reference
+
+## Project Files
+
+- `red_sox_offensive_analysis.ipynb` — Full exploratory analysis with explanations, tables, and visualizations.
+- `red_sox_offensive_analysis.py` — Reusable Python script that reproduces the analysis.
+- `BOS_2024.csv`, `BOS_2025.csv`, `BOS_2026.csv` — Baseball-Reference monthly batting split data.
+- `requirements.txt` — Python packages required to run the analysis.
+
+## How to Run
+
+Clone or download this repository, install the required packages, and run the Python script:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 red_sox_offensive_analysis.py
